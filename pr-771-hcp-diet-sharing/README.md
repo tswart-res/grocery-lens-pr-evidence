@@ -21,11 +21,17 @@ HEADLESS=true uv run pytest billing/tests/playwright/test_screenshot_walkthrough
 | `09-patient-fork-of-shared-diet.png` | The diet builder after the patient opens the customisable shared diet: it forks into a private copy the patient owns, editable. |
 | `10-fork-community-option-disabled.png` | The fork's Visibility control: the Community option is disabled, with the note "Shared with you by Priya Chandrasekaran, Riverside Community Clinic, so this diet stays private." The server still refuses the change if it is forced through. |
 | `11-patient-diet-list-after-revoke.png` | The patient's diet list after the professional revokes the share: the shared original is gone. The "Low FODMAP Protocol" still listed here is the patient's own private fork from step 9, unaffected by the revoke -- not the revoked share. |
+| `12-dashboard-many-referrals-page-1.png` | A practitioner with a caseload: the referral list pages at ten, each patient in their own card with their own assign controls. |
+| `13-dashboard-many-referrals-page-2.png` | The second page, showing the older patients stay reachable — assign and revoke live on these rows, so a referral that never renders cannot be managed. |
 
 ## Notes for reviewers
 
-- The "Your Referral Link" panel on the dashboard renders as a bare `#` (visible in every dashboard
-  screenshot). This is not an artifact of the test environment: `referral_url` is the hardcoded string
-  `"#"` at `billing/views_freemium.py:345`, left behind when the shared HCP referral code was replaced by
-  per-patient links. Every real professional sees the same dead panel and a Copy Link button that copies
-  `#`. Pre-existing, out of scope for this branch, raised separately.
+- The dashboard used to carry a "Your Referral Link" panel that rendered a bare `#` and a Copy Link
+  button that copied it: `referral_url` was hardcoded to `"#"`, left behind when the shared HCP referral
+  code was replaced by per-patient links. The dead panel is removed on this branch; what remains in that
+  column is the referral-benefit copy, which is still true.
+
+- These screenshots are the first ones taken with the dashboard's own stylesheet actually applied. The
+  page declared `{% block extra_css %}`, which `base.html` does not render, so every style on it — the
+  metric cards, the per-patient cards, the professional badge — was silently dropped. Earlier
+  screenshots on this branch show the unstyled page.
