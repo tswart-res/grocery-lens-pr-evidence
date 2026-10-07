@@ -1,0 +1,102 @@
+{
+  "current_capture_date": "2026-10-07",
+  "current_browser_tests_passed": 4,
+  "files": {
+    "2026-10-07/filtered-products.png": {
+      "sha256": "de4e1125c9cfe7b71e81cf41bd0308e8c690565517432efd541ca7ae8e55d57b",
+      "bytes": 35999
+    },
+    "2026-10-07/filtered-recipes.png": {
+      "sha256": "77cfe48a024c2d50fdd7b9c0776a21af99ea2a39b84cd5bd8731beb6397b93d7",
+      "bytes": 12491
+    },
+    "2026-10-07/free-premium-lock-desktop.png": {
+      "sha256": "e2785edb6eadef9e5972a50a415c649b7e7a152c93a93a38e3418196ab7861b8",
+      "bytes": 136847
+    },
+    "2026-10-07/free-premium-lock-mobile.png": {
+      "sha256": "cbf6c94ea1b76af7d10b36573589eaa3c58031986aecd76cbb26d08ee60e58c1",
+      "bytes": 12507
+    },
+    "2026-10-07/premium-feature-list.png": {
+      "sha256": "1bca585dcd240f7c96fb237fdd721f53187d9324a60316cde963366612ec33ab",
+      "bytes": 46157
+    },
+    "2026-10-07/premium-product-profile-desktop.png": {
+      "sha256": "f546ff064e24f00e3a2c5cf97c9a37df6f1c960ec2c8d494d5960d0f93e7f137",
+      "bytes": 202436
+    },
+    "2026-10-07/premium-product-profile-mobile.png": {
+      "sha256": "3ee89a7936a542260391e500b9814f0ad6574fea09e7999c2525188a6577d3f6",
+      "bytes": 79748
+    },
+    "2026-10-07/premium-recipe-profile-desktop.png": {
+      "sha256": "e812f06e273a0b84e7f36875639d87d61c583a4b64c69d602db354c92b2f4852",
+      "bytes": 205189
+    },
+    "2026-10-07/product-nutrient-evidence.png": {
+      "sha256": "2984baa9d5a4a5081dc6949398fc50570b64b457a6d53434b1b4c4dbcd213eda",
+      "bytes": 197640
+    },
+    "2026-10-07/recipe-nutrient-evidence.png": {
+      "sha256": "5fb3cf74d0fe8b1857e685d59e10538403b6e5232e1ebdeb87192372f4f6b335",
+      "bytes": 201243
+    },
+    "2026-10-07/staff-unlocked-editor.png": {
+      "sha256": "f8e30be1b4c36a79575a63a4238aebd84eb5d7995e5e942b936749182033cdbc",
+      "bytes": 75093
+    },
+    "history/micronutrients-20260910/diet-builder-nutrition-desktop.png": {
+      "sha256": "20ca074016ee705173cbb195fee8cecc143a1de3746c9b4fc0f57cc3a7d40994",
+      "bytes": 110577
+    },
+    "history/micronutrients-20260910/diet-builder-nutrition-mobile.png": {
+      "sha256": "b4f414fb78d3f6ac76ee7db6164142a66818ed338db787b3ff4dee4d0d0cf0f8",
+      "bytes": 82308
+    },
+    "history/micronutrients-20260910/diet-builder-nutrition-section.png": {
+      "sha256": "b2e5fcb1f74f8c273214343827536e72b98b0ba156b90eff073046652e67571e",
+      "bytes": 203081
+    },
+    "history/micronutrients-20260910/product-nutrients-section.png": {
+      "sha256": "08381634a538c5e256d868cb468c92793f550c91a2e396eb44c2a5f0641444be",
+      "bytes": 205565
+    },
+    "history/micronutrients-20260910/recipe-page-nutrients-desktop.png": {
+      "sha256": "6a08c2837d9173a1883ee5d6efd1369f237f9d4880eb0ac76ff386658eff83e1",
+      "bytes": 129236
+    },
+    "history/micronutrients-20260910/recipe-page-nutrients-mobile.png": {
+      "sha256": "a99aaaff48f07def37402f86fd9719b700f9ea63ec65e1c559347816950f79b0",
+      "bytes": 84564
+    },
+    "history/micronutrients-20260910/recipe-page-nutrients-section.png": {
+      "sha256": "b5b1f9164e01e7b60bf4539d2d2838dec2217d5e9c2acb3cf4011282b68181fb",
+      "bytes": 241969
+    },
+    "history/micronutrients-20260910/recipe-page-overview.png": {
+      "sha256": "f9632d0062895dd7fa7d70cfcee225730fa0de022052598c26e659bf357496c6",
+      "bytes": 208231
+    },
+    "history/micronutrients-20260911/high-iron-profile-e2e.png": {
+      "sha256": "77f44f8b0b0070a4d8ded9db3d3a25737389badc40a4b1c55d44dd4642338766",
+      "bytes": 78608
+    },
+    "history/micronutrients-20260911/products-294-1280.png": {
+      "sha256": "a69969b33c7da84cd2175d7fdeed83c0816f833aea77ad4b3fc63a3cebfe8657",
+      "bytes": 152063
+    },
+    "history/micronutrients-20260911/products-294-390.png": {
+      "sha256": "3534f1649cce16745bc73a5ae9666958702482208b0e3a42ff5ed38b2a263e1b",
+      "bytes": 129025
+    },
+    "history/micronutrients-20260911/recipes-294-1280.png": {
+      "sha256": "a038a895c704d17849f4d8da03d2ac3061b283abd1d306c384de8800b06a8d07",
+      "bytes": 190912
+    },
+    "history/micronutrients-20260911/recipes-294-390.png": {
+      "sha256": "631a1b5d8c3b2cd97af8af7764f99f53606f36ed6fc06cc8c32a9e0a05a8786e",
+      "bytes": 169257
+    }
+  }
+}
