@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-29",
+  "application_commit": "bf8730df22e6927aa7ab03f6e6a47384e9b9e181",
+  "browser": "Chromium",
+  "desktop": {
+    "width": 1440,
+    "height": 1100
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "products": [
+    {
+      "shop": "morrisons",
+      "sku": "116041576",
+      "name": "The Best Traditional Peanut Brittle"
+    },
+    {
+      "shop": "ocado",
+      "sku": "272119011",
+      "name": "Brecon Special Reserve Gin"
+    },
+    {
+      "shop": "sainsburys",
+      "sku": "7450266",
+      "name": "Sainsbury's Multigrain Melba Toast"
+    },
+    {
+      "shop": "tesco",
+      "sku": "278288475",
+      "name": "Tesco Olive Oil with Chilli"
+    },
+    {
+      "shop": "waitrose",
+      "sku": "582243",
+      "name": "Kopparberg Variety Pack"
+    },
+    {
+      "shop": "tesco",
+      "sku": "310690710",
+      "name": "Tesco 30 Mini Gingerbread Men"
+    }
+  ],
+  "check_count": 45,
+  "checks_by_usage": {
+    "desktop browse": 6,
+    "favourites": 6,
+    "desktop detail": 1,
+    "desktop hover zoom": 1,
+    "desktop comparison": 6,
+    "desktop basket": 6,
+    "checkout": 6,
+    "mobile browse": 6,
+    "mobile detail": 1,
+    "mobile basket": 6
+  },
+  "result": "passed"
+}
